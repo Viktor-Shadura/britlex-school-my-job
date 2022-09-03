@@ -85,6 +85,123 @@ body {
 
 /*Skills*/
 
+.skills-title {
+    color: var(--black-text);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72/48);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.skills-picture {
+    margin-bottom: 24px;
+}
+
+.skills-subtitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: calc(45/30);
+    color: var(--dark-tekt-color);
+    margin-bottom: 20px;
+}
+
+.skills-text {
+    margin-bottom: 30px;
+}
+
+.skills-btn-big {
+    background: var(--btn-bg-color);
+    border-radius: 10px;
+    min-width: 230px;
+    min-height: 60px;
+    border: 0px;
+
+    color: var(--white-text);
+    
+}
+
+.skills-btn-small {
+    background: var(--btn-bg-color);
+    border-radius: 10px;
+    min-width: 218px;
+    min-height: 60px;
+    border: 0px;
+
+    color: var(--white-text);
+    
+}
+
+.skills-btn-big:hover,
+.skills-btn-small:hover,
+.skills-btn-big:focus,
+.skills-btn-small:focus {
+    background-color: var(--price-tag-bg);
+    border: 2px solid var(--btn-bg-color) ;
+    color: var(--dark-tekt-color);
+}
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 2;
+
+    width: 426px;
+    background: var(--bg-grey);
+    border-radius: 10px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+
+    width: 426px;
+    background: var(--bg-grey);
+    border-radius: 10px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+
+    width: 426px;
+    background: var(--bg-grey);
+    border-radius: 10px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.div4 {
+    grid-area: 2 / 2 / 3 / 4;
+
+    width: 882px;
+    background: var(--bg-grey);
+    border-radius: 10px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
 
 
 /*About-Us*/
