@@ -1,0 +1,165 @@
+/*root*/
+
+:root {
+    /*fonts*/
+    --main-text: 'Poppins', sans-serif;
+
+    /*text-colors*/
+    --paragraph-text-color: #8F95A5;
+    --dark-tekt-color: #263238;
+    --white-text: #ffffff;
+    --black-text: #000000;
+    --logo-grey: #939393;
+    --about-dark-grey: #2A3246;
+    --pricing-grey: #546269;
+
+    /*background-colors*/
+    --bg-grey: #F5F5F5;
+    --btn-bg-color: #263238;
+    --frame-color: #8F95A5;
+    --price-tag-bg: #EEEEEE;
+    --line-color: #C4C4C4;
+}
+
+/*containers*/
+
+.container {
+    width: 1368px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: 2px solid red;
+}
+
+/*reset-styles*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0%;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--paragraph-text-color);
+    line-height: calc(24/16);
+
+}
+
+.section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    outline: 2px solid rgb(0, 119, 255);
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+/*Heder*/
+
+
+
+/*Hero*/
+
+
+
+/*Skills*/
+
+
+
+/*About-Us*/
+
+
+
+/*Pricing*/
+
+.pricing-title {
+    color: var(--black-text);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72/48);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-list {
+    display: flex;
+    gap: 30px;
+}
+
+.pricing-title-item {
+    display: flex;
+    flex-direction: column;
+    width: 426px;
+}
+
+.pricing-subtitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: calc(48/30);
+    text-transform: capitalize;
+    color: var(--dark-tekt-color);
+    margin-bottom: 20px;
+}
+
+.text-pricing {
+    font-size: 20px;
+    line-height: calc(30/20);
+    color: var(--paragraph-text-color);
+    margin-bottom: 30px;
+}
+
+.pricing-title-item > .text-pricing {
+    flex-grow: 1;
+}
+
+.price-tag {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+
+    font-size: 24px;
+    line-height: calc(36/24);
+    text-align: center;
+    color: var(--dark-tekt-color);
+    padding-top: 5px;
+    padding-bottom: 4px;
+
+    width: 260px;
+    background-color: var(--price-tag-bg);
+    border-radius: 5px;
+}
+
+.akcent-price {
+    font-size: 18px;
+    line-height: calc(27/18);
+    color: var(--pricing-grey);
+}
+
+/*Contact-Us*/
+
+
+
+/*Footer*/
+
+
