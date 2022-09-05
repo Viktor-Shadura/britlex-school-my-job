@@ -60,7 +60,7 @@ body {
     padding-top: 90px;
     padding-bottom: 90px;
 
-    /*outline: 2px solid rgb(0, 119, 255);*/
+    outline: 2px solid rgb(0, 119, 255);
 }
 
 .list {
@@ -135,7 +135,56 @@ body {
 
 /*Hero*/
 
+.hero-minus {
+    padding-top: 0px;
+}
 
+.hero-box {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between
+}
+
+.hero-text-box {}
+
+.hero-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: calc(80/64);
+    color: var(--black-text);
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    font-size: 24px;
+    line-height: calc(36/24);
+    color: var(--paragraph-text-color);
+    margin-bottom: 60px;
+    width: 540px;
+}
+
+.hero-button {
+    min-width: 426px;
+    min-height: 100px;
+    background: var(--btn-bg-color);
+    border-radius: 10px;
+
+    font-size: 36px;
+    line-height: calc(54/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    border: 2px solid var(--btn-bg-color);
+    background-color: var(--bg-grey);
+    color: var(--dark-tekt-color);
+}
 
 /*Skills*/
 
