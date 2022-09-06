@@ -447,7 +447,51 @@ body {
 
 /*Contact-Us*/
 
+.contact-minus {
+    padding-bottom: 0px;
+}
 
+.contact-box {
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-box-text {
+
+}
+
+.contact-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72/48);
+    color: var(--black-text);
+    margin-bottom: 60px;
+}
+
+.contact-text {
+    width: 654px;
+    font-size: 20px;
+    color: var(--paragraph-text-color);
+    margin-bottom: 30px;
+}
+
+.contact-buttom {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+    width: 500px;
+    background: var(--btn-bg-color);
+    border-radius: 10px;
+}
+
+.contact-buttom:hover,
+.contact-buttom:focus {
+    background-color: var(--bg-grey);
+    color: var(--dark-tekt-color);
+    border: 2px solid var(--btn-bg-color);
+}
 
 /*Footer*/
 
