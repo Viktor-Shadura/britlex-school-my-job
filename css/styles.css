@@ -273,7 +273,7 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    height: 947px;
+
 }
 
 .div1 {
